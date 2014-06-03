@@ -89,7 +89,7 @@ OBJDIR = .
 
 
 # Shared source code
-SHARED = ../../libs
+SHARED = ../libs
 
 
 # Define UART BAUD rate
