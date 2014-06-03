@@ -142,7 +142,7 @@ DEBUG = dwarf-2
 #     Each directory must be seperated by a space.
 #     Use forward slashes for directory separators.
 #     For a directory that has spaces, enclose it in quotes.
-EXTRAINCDIRS = ../../ $(SHARED)
+EXTRAINCDIRS = ../ $(SHARED)
 
 
 # Compiler flag to set the C Standard level.
@@ -457,7 +457,7 @@ ALL_ASFLAGS = -mmcu=$(MCU) -I. -x assembler-with-cpp $(ASFLAGS)
 #export EVENT_FREQ
 #export MAX_EVENT_RECORDS
 #export TWI_SPEED BAUD
-#include ../../libs/makefile
+#include ../libs/makefile
 
 
 # Default target.
