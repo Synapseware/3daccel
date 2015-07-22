@@ -42,7 +42,7 @@ arduino/arduino-1.0.5/
 *.lss
 *.map
 *.sym
-
+*.
 
 #Ignore credential headers
 private/
